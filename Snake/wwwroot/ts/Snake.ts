@@ -2,6 +2,8 @@
 
 }
 
-export class Snake {
-
+export default class Snake {
+	echo = () => {
+		console.log("Hello Snake");
+	}
 }

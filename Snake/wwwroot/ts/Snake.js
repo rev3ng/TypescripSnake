@@ -7,8 +7,11 @@ var SnakeSegment = /** @class */ (function () {
 }());
 var Snake = /** @class */ (function () {
     function Snake() {
+        this.echo = function () {
+            console.log("Hello Snake");
+        };
     }
     return Snake;
 }());
-exports.Snake = Snake;
+exports.default = Snake;
 //# sourceMappingURL=Snake.js.map
